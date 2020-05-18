@@ -1,5 +1,13 @@
 function telephoneCheck(str) {
-  return true;
+  // var a = ( str[0]==1 || str[0]==="(")
+  // console.log (a)
+if (str.length >10 || str.length <=14 ){
+      if (str.length = 10 ; str.splice != "")
+   return true;
+} else 
+  return false;
 }
 
-telephoneCheck("555-555-5555");
+
+
+console.log(telephoneCheck("8-345-78901234"));
